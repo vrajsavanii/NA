@@ -22,37 +22,21 @@ export default function Footer({ onOpenStrategyCall }: FooterProps) {
           initial="hidden"
           whileInView="visible"
           viewport={viewportConfig}
-          className="pb-16 border-b border-white/[0.08] flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8"
+          className="pb-16 border-b border-white/[0.08] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6"
         >
-          <div className="max-w-2xl space-y-2">
-            <div className="text-xs font-mono uppercase tracking-widest text-zinc-400 font-bold">
-              Ready for Operational Transformation?
-            </div>
-            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              Eliminate operational drag with deterministic AI.
-            </h3>
-            <p className="text-sm sm:text-base text-zinc-400 leading-relaxed">
-              Schedule an executive architecture session with founders Manthan Kachhadiya and Vraj Savani to inspect your manual bottlenecks.
-            </p>
-          </div>
+          <p className="text-lg sm:text-xl font-semibold text-white tracking-tight">
+            Ready to work with us?
+          </p>
 
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 shrink-0 w-full sm:w-auto">
-            {onOpenStrategyCall && (
-              <button
-                onClick={onOpenStrategyCall}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white text-[#09090b] font-bold text-sm hover:bg-zinc-200 transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
-              >
-                <span>Request Live Demo</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            )}
-            <Link
-              href="/setup"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/[0.06] text-white font-semibold text-sm border border-white/[0.12] hover:bg-white/[0.10] transition-all"
+          {onOpenStrategyCall && (
+            <button
+              onClick={onOpenStrategyCall}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white text-[#09090b] font-bold text-sm hover:bg-zinc-100 transition-all shadow-md shrink-0"
             >
-              Solution Architect
-            </Link>
-          </div>
+              <span>Request Demo</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
         </motion.div>
 
         {/* 2. Main Multi-Column Footer Grid */}
