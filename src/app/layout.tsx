@@ -20,21 +20,21 @@ const mono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://nexagent.in'),
   title: {
-    default: 'NexAgent — AI Infrastructure & Portfolio Companies',
+    default: 'NexAgent | AI-Powered Business Software & Hospital Management Systems (HMS)',
     template: '%s | NexAgent',
   },
   description:
-    'NexAgent is a technology holding company building AI-native operating systems for high-stakes industries. Portfolio: Imuna (Healthcare OS) and more.',
+    'NexAgent builds deterministic AI business software and hospital management systems (HMS). Eliminate manual queues with human-in-the-loop workflows.',
   keywords: [
     'NexAgent',
-    'AI infrastructure',
-    'AI operating system',
-    'Imuna',
-    'Healthcare AI',
+    'AI-powered business software',
     'Hospital Management System',
+    'HMS software',
+    'outpatient triage automation',
+    'hospital bed turnaround system',
+    'workflow automation',
     'deterministic AI',
-    'enterprise AI',
-    'AI portfolio company',
+    'human-in-the-loop governance',
   ],
   authors: [
     { name: 'Manthan Kachhadiya', url: 'https://github.com/manthankachhadiyaa' },
@@ -43,23 +43,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://nexagent.in/',
-    title: 'NexAgent — AI Infrastructure & Portfolio Companies',
+    title: 'NexAgent | AI-Powered Business Software & Hospital Management Systems',
     description:
-      'NexAgent builds AI-native operating systems for high-stakes industries. Portfolio company: Imuna — Hospital OS.',
+      'Deterministic AI systems that participate in real business operations. Automate clinical queues, bed turnover, and enterprise workflows.',
     images: [
       {
         url: 'https://nexagent.in/assets/nexagent_logo.png',
         width: 800,
         height: 600,
-        alt: 'NexAgent — AI Infrastructure',
+        alt: 'NexAgent Logo - Deterministic AI & Hospital Management Systems',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NexAgent — AI Infrastructure & Portfolio Companies',
+    title: 'NexAgent | AI-Powered Business Software & Hospital Management Systems',
     description:
-      'Building AI-native operating systems for high-stakes industries. Portfolio: Imuna (Healthcare OS).',
+      'Deterministic AI business systems. Featuring NexAgent HMS for clinical triage and bed turnover orchestration.',
     images: ['https://nexagent.in/assets/nexagent_logo.png'],
   },
   icons: {
@@ -86,7 +86,7 @@ export default function RootLayout({
         url: 'https://nexagent.in/',
         logo: 'https://nexagent.in/assets/nexagent_logo.png',
         description:
-          'NexAgent is a technology holding company building AI-native operating systems for high-stakes industries.',
+          'NexAgent is a deterministic AI technology company building enterprise business software and hospital management systems (HMS).',
         foundingDate: '2026',
         founders: [
           {
@@ -126,12 +126,17 @@ export default function RootLayout({
       },
       {
         '@type': 'SoftwareApplication',
-        '@id': 'https://nexagent.in/#imuna',
-        name: 'Imuna by NexAgent',
+        '@id': 'https://nexagent.in/#hms',
+        name: 'NexAgent HMS',
         applicationCategory: 'HealthApplication',
         operatingSystem: 'Cloud / Web',
         description:
-          'AI operating system for hospitals and clinical networks — eliminating manual friction across every patient touchpoint.',
+          'Hospital Management System and clinical queue orchestration software designed to streamline outpatient triage, bed turnover, and EMR workflows.',
+        offers: {
+          '@type': 'Offer',
+          price: '0',
+          priceCurrency: 'USD',
+        },
       },
       {
         '@type': 'FAQPage',
