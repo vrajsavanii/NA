@@ -572,27 +572,34 @@ body {
   }
 }
 
+.uiverse-cube-container,
 .iso-container {
   position: relative;
+  top: -30px;
   transform: skewY(-20deg);
   animation: cubeHueAnimate 5s linear infinite;
 }
 
+.uiverse-cube-container .cube,
 .iso-container .cube {
   position: relative;
   z-index: 2;
+  cursor: pointer;
 }
 
+.uiverse-cube-container .cube:nth-child(2),
 .iso-container .cube:nth-child(2) {
   z-index: 1;
   translate: -60px -60px;
 }
 
+.uiverse-cube-container .cube:nth-child(3),
 .iso-container .cube:nth-child(3) {
   z-index: 3;
   translate: 60px 60px;
 }
 
+.uiverse-cube-container .cube div,
 .iso-container .cube div {
   position: absolute;
   display: flex;
@@ -601,6 +608,7 @@ body {
   translate: calc(-70px * var(--x)) calc(-60px * var(--y));
 }
 
+.uiverse-cube-container .cube div span,
 .iso-container .cube div span {
   position: relative;
   display: inline-block;
@@ -614,20 +622,23 @@ body {
   cursor: pointer;
 }
 
+.uiverse-cube-container .cube div span:hover,
 .iso-container .cube div span:hover {
   transition: 0s;
-  background: #09090b !important;
-  border-color: #09090b !important;
-  filter: drop-shadow(0 0 16px rgba(0, 0, 0, 0.35)) !important;
+  background: #ef4149 !important;
+  border-color: #ef4149 !important;
+  filter: drop-shadow(0 0 30px #ef4149) !important;
 }
 
+.uiverse-cube-container .cube div span:hover:before,
+.uiverse-cube-container .cube div span:hover:after,
 .iso-container .cube div span:hover:before,
 .iso-container .cube div span:hover:after {
   transition: 0s;
-  background: #18181b !important;
-  border-color: #27272a !important;
+  background: #ef4149 !important;
 }
 
+.uiverse-cube-container .cube div span:before,
 .iso-container .cube div span:before {
   content: "";
   position: absolute;
@@ -642,6 +653,7 @@ body {
   transition: background 1.5s;
 }
 
+.uiverse-cube-container .cube div span:after,
 .iso-container .cube div span:after {
   content: "";
   position: absolute;

@@ -27,21 +27,27 @@ export default function FoundersSection() {
           viewport={viewportConfig}
           className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12 lg:mb-16"
         >
-          <div className="space-y-3">
+          <div className="max-w-2xl space-y-4">
             <motion.div
               variants={fadeUpVariants}
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#181a20] text-zinc-300 text-[11px] font-mono font-bold uppercase tracking-wider border border-zinc-800 shadow-sm"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-[#22d3ee] animate-pulse" />
-              <span>Founders</span>
+              <span>FOUNDERS</span>
             </motion.div>
             <motion.h2
               variants={fadeUpVariants}
-              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-zinc-950 tracking-tight leading-[1.08]"
+              className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-zinc-950 tracking-tight leading-[1.1]"
             >
-              Two founders.
+              Two founders.<br />One operating vision.
             </motion.h2>
           </div>
+
+          <motion.div variants={fadeUpVariants} className="lg:max-w-md">
+            <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
+              NexAgent is built by two equal founders combining product thinking, business strategy, AI, and engineering to build intelligent systems for modern businesses.
+            </p>
+          </motion.div>
         </motion.div>
 
         {/* ── Desktop: Full Split-Screen Panels ── */}
