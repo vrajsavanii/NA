@@ -1,25 +1,27 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'NexAgent Hospitality OS | AI Property Management & Dynamic Pricing',
+  title: 'AI Hotel Management Software India | PMS & OTA Sync | NexAgent',
   description:
-    'AI-powered hotel management system (PMS): algorithmic RevPAR dynamic pricing, 24/7 WhatsApp autonomous guest concierge, automated room turnover dispatch, and 2-way OTA sync.',
+    'NexAgent Hospitality OS: AI hotel PMS for India. Dynamic RevPAR pricing, 24/7 WhatsApp concierge, Booking.com/Expedia/Airbnb OTA sync, room turnover automation. Request a demo.',
   keywords: [
-    'Hospitality management system',
-    'Hotel PMS software',
-    'Dynamic room pricing algorithm',
+    'AI hotel management software India',
+    'hotel PMS India',
+    'hotel management AI India',
+    'dynamic pricing hotel software India',
     'WhatsApp hotel concierge',
-    'Room turnover housekeeping automation',
-    'OTA channel synchronization',
+    'OTA sync hotel software',
+    'hotel revenue management software India',
     'NexAgent Hospitality OS',
+    'RevPAR optimization software India',
   ],
   alternates: {
     canonical: 'https://nexagent.in/products/hospitality',
   },
   openGraph: {
-    title: 'NexAgent Hospitality OS | AI Property Management & Dynamic Pricing',
+    title: 'AI Hotel Management Software India | PMS & OTA Sync | NexAgent',
     description:
-      'Maximize RevPAR with dynamic pricing and delight guests with 24/7 autonomous WhatsApp concierge workflows.',
+      'NexAgent Hospitality OS: Dynamic pricing AI, 24/7 WhatsApp concierge, Booking.com/Expedia/Airbnb OTA sync for Indian hotels. Request a demo.',
     url: 'https://nexagent.in/products/hospitality',
     type: 'website',
     images: [
@@ -27,15 +29,15 @@ export const metadata: Metadata = {
         url: 'https://nexagent.in/assets/nexagent_logo.png',
         width: 800,
         height: 600,
-        alt: 'NexAgent Hospitality OS - AI Property Management System',
+        alt: 'NexAgent Hospitality OS - AI Hotel Management Software India',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NexAgent Hospitality OS | AI Hotel Management System',
+    title: 'AI Hotel Management Software India | NexAgent Hospitality OS',
     description:
-      'Algorithmic dynamic pricing, 24/7 autonomous concierge, and automated room turnover dispatch.',
+      'Dynamic RevPAR pricing, 24/7 WhatsApp concierge, OTA sync for Indian hotels. Deterministic AI. Human-in-the-loop. Book a demo.',
     images: ['https://nexagent.in/assets/nexagent_logo.png'],
   },
 };

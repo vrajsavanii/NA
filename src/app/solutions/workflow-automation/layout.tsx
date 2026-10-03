@@ -1,24 +1,26 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Deterministic Workflow Automation | Enterprise Operations Core | NexAgent',
+  title: 'AI Workflow Automation India | Enterprise Ops Core | NexAgent',
   description:
-    'Eliminate repetitive manual operations and cross-tool lag. NexAgent connects ERPs, CRMs, and databases into self-executing, policy-bounded operational pipelines with human-in-the-loop governance.',
+    'NexAgent Enterprise Ops Core: deterministic AI workflow automation for Indian enterprises. Connects ERP, CRM & databases into policy-bounded pipelines. Human-in-the-loop governance.',
   keywords: [
-    'Enterprise workflow automation',
-    'Deterministic AI operations',
-    'CRM ERP transactional sync',
-    'Human in the loop approval gates',
-    'Business process automation',
+    'AI workflow automation India',
+    'enterprise workflow automation India',
+    'deterministic AI workflow software',
+    'enterprise automation software India',
+    'CRM ERP automation India',
+    'human in the loop AI governance',
+    'business process automation India',
     'NexAgent Enterprise Core',
   ],
   alternates: {
     canonical: 'https://nexagent.in/solutions/workflow-automation',
   },
   openGraph: {
-    title: 'Deterministic Workflow Automation | Enterprise Operations Core | NexAgent',
+    title: 'AI Workflow Automation India | Enterprise Ops Core | NexAgent',
     description:
-      'Connect your disparate software stacks into self-executing, policy-bounded operational pipelines with cryptographic audit logging.',
+      'Deterministic AI workflow automation connecting ERP, CRM & databases. Policy-bounded pipelines with cryptographic audit logging for Indian enterprises.',
     url: 'https://nexagent.in/solutions/workflow-automation',
     type: 'website',
     images: [
@@ -26,15 +28,15 @@ export const metadata: Metadata = {
         url: 'https://nexagent.in/assets/nexagent_logo.png',
         width: 800,
         height: 600,
-        alt: 'NexAgent Enterprise Workflow Automation',
+        alt: 'NexAgent Enterprise Workflow Automation India',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Deterministic Workflow Automation | NexAgent',
+    title: 'AI Workflow Automation India | NexAgent Enterprise Core',
     description:
-      'Policy-bounded operational pipelines connecting CRM, ERP, and databases with zero unauthorized bypass.',
+      'Policy-bounded ERP/CRM/database pipelines for Indian enterprises. Zero unauthorized bypass. Cryptographic audit. Human-in-the-loop.',
     images: ['https://nexagent.in/assets/nexagent_logo.png'],
   },
 };

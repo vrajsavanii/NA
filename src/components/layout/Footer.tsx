@@ -166,6 +166,16 @@ export default function Footer({ onOpenStrategyCall }: FooterProps) {
                 </Link>
               </li>
               <li>
+                <Link href="/faq" className="hover:text-white transition-colors">
+                  FAQ & Knowledge Base
+                </Link>
+              </li>
+              <li>
+                <Link href="/glossary" className="hover:text-white transition-colors">
+                  Operational Glossary
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://github.com/manthankachhadiyaa/NA"
                   target="_blank"

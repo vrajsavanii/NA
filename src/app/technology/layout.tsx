@@ -1,24 +1,26 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Technology Architecture | 7-Layer Deterministic Operational Stack | NexAgent',
+  title: 'Deterministic AI Architecture India | 7-Layer Stack | NexAgent',
   description:
-    'Explore NexAgent’s 7-layer engineering architecture: edge ingestion, in-memory PII tokenization, WebAssembly policy engine, two-phase commit execution, and append-only audit ledgers.',
+    'NexAgent\'s 7-layer deterministic AI architecture: edge ingestion, in-memory PHI redaction, WebAssembly policy engine, two-phase commit, and immutable audit ledger. Zero hallucinations.',
   keywords: [
-    'Deterministic AI architecture',
-    '7 layer operational stack',
-    'WebAssembly policy engine',
-    'Two-phase commit writes',
-    'HIPAA SOC2 compliant AI',
+    'deterministic AI software India',
+    'deterministic AI architecture',
+    'WebAssembly AI policy engine',
+    '7 layer AI operating system',
+    'human in the loop AI India',
+    'HIPAA SOC2 compliant AI India',
     'NexAgent Technology',
+    'AI safety architecture India',
   ],
   alternates: {
     canonical: 'https://nexagent.in/technology',
   },
   openGraph: {
-    title: 'Technology Architecture | 7-Layer Deterministic Operational Stack | NexAgent',
+    title: 'Deterministic AI Architecture India | 7-Layer Stack | NexAgent',
     description:
-      'Engineered for mission-critical operations where error is not an option. Explore our deterministic execution architecture.',
+      'How NexAgent eliminates AI hallucinations: 7-layer deterministic stack with WebAssembly policy gates, in-memory PHI redaction, and cryptographic audit ledger.',
     url: 'https://nexagent.in/technology',
     type: 'website',
     images: [
@@ -26,15 +28,15 @@ export const metadata: Metadata = {
         url: 'https://nexagent.in/assets/nexagent_logo.png',
         width: 800,
         height: 600,
-        alt: 'NexAgent 7-Layer Technology Architecture',
+        alt: 'NexAgent 7-Layer Deterministic AI Architecture',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Technology Architecture | NexAgent 7-Layer Stack',
+    title: 'Deterministic AI Architecture India | NexAgent',
     description:
-      'Deterministic execution, in-memory redaction, and cryptographic auditability for enterprise operations.',
+      'How NexAgent builds zero-hallucination AI: WebAssembly policy gates, in-memory PHI redaction, two-phase commit, cryptographic audit.',
     images: ['https://nexagent.in/assets/nexagent_logo.png'],
   },
 };

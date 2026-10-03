@@ -1,16 +1,25 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About NexAgent | Leadership, Architecture & Engineering Mission',
+  title: 'About NexAgent | AI Automation Company India | Manthan & Vraj',
   description:
-    'Meet NexAgent founders Manthan Kachhadiya and Vraj Savani. Learn how our engineering-first team builds deterministic AI systems for healthcare and enterprise operations.',
+    'NexAgent Infra: AI automation startup from Gujarat, India. Founded 2026 by Manthan Kachhadiya (CEO) & Vraj Savani (COO). Building deterministic AI for hospitals, hotels & enterprises.',
   alternates: {
     canonical: 'https://nexagent.in/about',
   },
+  keywords: [
+    'NexAgent founders',
+    'AI startup India 2026',
+    'AI automation company India',
+    'Manthan Kachhadiya NexAgent',
+    'Vraj Savani NexAgent',
+    'deterministic AI company India',
+    'AI company Gujarat India',
+  ],
   openGraph: {
-    title: 'About NexAgent | Leadership, Architecture & Engineering Mission',
+    title: 'About NexAgent | AI Automation Company India | Manthan & Vraj',
     description:
-      'Meet founders Manthan Kachhadiya (AI Systems) and Vraj Savani (Operations). Building deterministic AI operating systems with human-in-the-loop governance.',
+      'NexAgent Infra: Indian AI automation company. Meet founders Manthan Kachhadiya (CEO, AI Architecture) and Vraj Savani (COO, Product & Operations). Gujarat, India.',
     url: 'https://nexagent.in/about',
     type: 'profile',
     images: [
@@ -24,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About NexAgent | Leadership & Engineering Mission',
+    title: 'About NexAgent | AI Automation Company India',
     description:
-      'Meet founders Manthan Kachhadiya and Vraj Savani. Building deterministic AI systems that participate in real enterprise operations.',
+      'Founders Manthan Kachhadiya & Vraj Savani. Building zero-hallucination deterministic AI for Indian hospitals, hotels & enterprises.',
     images: ['https://nexagent.in/assets/nexagent_logo.png'],
   },
 };

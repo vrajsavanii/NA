@@ -352,6 +352,30 @@ export default function Navbar({ onOpenStrategyCall, activePath = '/' }: NavbarP
           >
             Company
           </Link>
+
+          <Link
+            href="/faq"
+            onClick={() => setActiveDropdown(null)}
+            className={`px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-colors rounded-full ${
+              activePath === '/faq'
+                ? 'text-[#09090b] font-bold bg-black/[0.06]'
+                : 'text-[#52525b] hover:text-[#09090b] hover:bg-black/[0.04]'
+            }`}
+          >
+            FAQ
+          </Link>
+
+          <Link
+            href="/glossary"
+            onClick={() => setActiveDropdown(null)}
+            className={`px-3.5 py-2 text-xs font-semibold uppercase tracking-wider transition-colors rounded-full ${
+              activePath === '/glossary'
+                ? 'text-[#09090b] font-bold bg-black/[0.06]'
+                : 'text-[#52525b] hover:text-[#09090b] hover:bg-black/[0.04]'
+            }`}
+          >
+            Glossary
+          </Link>
         </nav>
 
         {/* Right: Primary Call to Action */}
@@ -481,6 +505,22 @@ export default function Navbar({ onOpenStrategyCall, activePath = '/' }: NavbarP
               className="block py-3 text-sm font-bold text-[#09090b] border-b border-black/[0.06] min-h-[44px] flex items-center"
             >
               Company
+            </Link>
+
+            <Link
+              href="/faq"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block py-3 text-sm font-bold text-[#09090b] border-b border-black/[0.06] min-h-[44px] flex items-center"
+            >
+              FAQ
+            </Link>
+
+            <Link
+              href="/glossary"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block py-3 text-sm font-bold text-[#09090b] border-b border-black/[0.06] min-h-[44px] flex items-center"
+            >
+              Glossary
             </Link>
 
             {/* Mobile CTA */}
